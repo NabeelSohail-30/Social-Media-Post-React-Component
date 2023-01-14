@@ -47,19 +47,31 @@ body {
 }
 
 .post__footer {
-	margin-top: 10px;
-	display: flex;
-	justify-content: center;
+	margin-top: 14px;
 }
 
 .post__icon {
 	width: 20px;
 	height: 20px;
 	cursor: pointer;
-	margin-right: 4px;
+	margin-right: 6px;
 }
 
-.post__stats {
+.container {
+	width: 100%;
+}
+
+.post__stat {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+
+i {
+	margin-right: 6px;
+}
+
+i:hover {
+	color: white;
+	text-shadow: 0 0 3px #000;
 }
