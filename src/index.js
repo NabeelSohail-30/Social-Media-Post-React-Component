@@ -54,11 +54,68 @@ function Post(props) {
   );
 }
 
-ReactDOM.render(<Post
-  name='Alice'
-  date='10th Jan, 2023'
-  postText='10th Jan, 2023'
-  likes='2k'
-  comments='25'
-  shares='10'
-/>, document.querySelector("#root"));
+ReactDOM.render(<div>
+  <Post
+    name='Alice'
+    date='10th Jan, 2023'
+    postText='10th Jan, 2023'
+    likes='2k'
+    comments='25'
+    shares='10'
+  />
+
+  <Post
+    name='Alice'
+    date='10th Jan, 2023'
+    postText='10th Jan, 2023'
+    likes='2k'
+    comments='25'
+    shares='10'
+  />
+
+  <Post
+    name='Alice'
+    date='10th Jan, 2023'
+    postText='10th Jan, 2023'
+    likes='2k'
+    comments='25'
+    shares='10'
+  />
+
+  <Post
+    name='Alice'
+    date='10th Jan, 2023'
+    postText='10th Jan, 2023'
+    likes='2k'
+    comments='25'
+    shares='10'
+  />
+
+  <Post
+    name='Alice'
+    date='10th Jan, 2023'
+    postText='10th Jan, 2023'
+    likes='2k'
+    comments='25'
+    shares='10'
+  />
+
+  <Post
+    name='Alice'
+    date='10th Jan, 2023'
+    postText='10th Jan, 2023'
+    likes='2k'
+    comments='25'
+    shares='10'
+  />
+
+  <Post
+    name='Alice'
+    date='10th Jan, 2023'
+    postText='10th Jan, 2023'
+    likes='2k'
+    comments='25'
+    shares='10'
+  />
+</div>, document.querySelector("#root"));
+
