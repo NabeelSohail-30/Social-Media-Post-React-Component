@@ -75,3 +75,75 @@ i:hover {
 	color: white;
 	text-shadow: 0 0 4px black;
 }
+
+.header {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+	font-size: 36px;
+	font-weight: bolder;
+}
+
+/*------------------------footer---------------------*/
+
+footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	height: fit-content;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+	margin-top: 60px;
+}
+
+.watermark {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.copyright {
+	font-size: 14px;
+	text-align: center;
+	font-weight: 400;
+	margin-top: 14px;
+}
+
+.portfolio a {
+	font-size: 14px;
+	text-align: center;
+	font-weight: 400;
+	margin-top: 14px;
+	text-decoration: none;
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 14px;
+}
+
+.media-icons {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 14px;
+}
+
+.media-icons li {
+	margin: 0px 10px;
+}
+
+.media-icons li a img {
+	width: 30px;
+	height: 30px;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+}

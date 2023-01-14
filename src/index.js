@@ -4,6 +4,18 @@ import './css/bootstrap.css'
 import './css/style.css'
 import post from './img/food1.jpg'
 import user from './img/user1.jpg'
+import github from './img/github.png'
+import email from './img/email.png'
+import linkedin from './img/linkedin.png'
+import whatsapp from './img/whatsapp.png'
+
+function Header() {
+  return (
+    <div className="header">
+      <div>Social Media Post</div>
+    </div>
+  );
+}
 
 function Post(props) {
   return (
@@ -54,68 +66,125 @@ function Post(props) {
   );
 }
 
+function Footer() {
+  return (
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col watermark">
+            Developed and Maintained by Nabeel Sohail
+          </div>
+        </div>
+        <div class="row">
+          <div class="col copyright">
+            Copyright &copy; - All Rights Reserved
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col portfolio">
+            <a href="https://nabeelsohail2630.wixsite.com/portfolio"
+              target="_blank">nabeelsohail2630.wixsite.com/portfolio</a>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div className='col social'>
+            <ul class="media-icons">
+              <li>
+                <a href='https://github.com/NabeelSohail-30' target='_blank'>
+                  <img src={github} alt=""></img>
+                </a>
+              </li>
+              <li>
+                <a href='https://www.linkedin.com/in/nabeel-sohail-a63508200/' target='_blank'>
+                  <img src={linkedin} alt=""></img>
+                </a>
+              </li>
+              <li>
+                <a href='mailto:nabeel.sohail2630@outlook.com' target='_blank'>
+                  <img src={email} alt=""></img>
+                </a>
+              </li>
+              <li>
+                <a href='https://wa.me/923453628868' target='_blank'>
+                  <img src={whatsapp} alt=""></img>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer >
+  );
+}
+
 ReactDOM.render(<div>
+  <Header />
+
   <Post
     name='Alice'
     date='10th Jan, 2023'
-    postText='10th Jan, 2023'
+    postText='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum. Vivamus at augue eget arcu. In ornare quam viverra orci sagittis eu volutpat odio. Nam libero justo laoreet sit. Aliquet eget sit amet tellus.'
     likes='2k'
     comments='25'
     shares='10'
   />
 
   <Post
-    name='Alice'
-    date='10th Jan, 2023'
-    postText='10th Jan, 2023'
+    name='John'
+    date='11 hr ago'
+    postText='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum. Vivamus at augue eget arcu. In ornare quam viverra orci sagittis eu volutpat odio. Nam libero justo laoreet sit. Aliquet eget sit amet tellus.'
     likes='2k'
     comments='25'
     shares='10'
   />
 
   <Post
-    name='Alice'
-    date='10th Jan, 2023'
-    postText='10th Jan, 2023'
+    name='Jasmine'
+    date='18th Dec 2022'
+    postText='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum. Vivamus at augue eget arcu. In ornare quam viverra orci sagittis eu volutpat odio. Nam libero justo laoreet sit. Aliquet eget sit amet tellus.'
     likes='2k'
     comments='25'
     shares='10'
   />
 
   <Post
-    name='Alice'
-    date='10th Jan, 2023'
-    postText='10th Jan, 2023'
+    name='Tony'
+    date='11th March 2021'
+    postText='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum. Vivamus at augue eget arcu. In ornare quam viverra orci sagittis eu volutpat odio. Nam libero justo laoreet sit. Aliquet eget sit amet tellus.'
     likes='2k'
     comments='25'
     shares='10'
   />
 
   <Post
-    name='Alice'
-    date='10th Jan, 2023'
-    postText='10th Jan, 2023'
+    name='Salman'
+    date='yesterday'
+    postText='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum. Vivamus at augue eget arcu. In ornare quam viverra orci sagittis eu volutpat odio. Nam libero justo laoreet sit. Aliquet eget sit amet tellus.'
     likes='2k'
     comments='25'
     shares='10'
   />
 
   <Post
-    name='Alice'
-    date='10th Jan, 2023'
-    postText='10th Jan, 2023'
+    name='Sallar'
+    date='1st Feb 2022'
+    postText='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum. Vivamus at augue eget arcu. In ornare quam viverra orci sagittis eu volutpat odio. Nam libero justo laoreet sit. Aliquet eget sit amet tellus.'
     likes='2k'
     comments='25'
     shares='10'
   />
 
   <Post
-    name='Alice'
-    date='10th Jan, 2023'
-    postText='10th Jan, 2023'
+    name='Elizabeth'
+    date='10th June, 2022'
+    postText='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum. Vivamus at augue eget arcu. In ornare quam viverra orci sagittis eu volutpat odio. Nam libero justo laoreet sit. Aliquet eget sit amet tellus.'
     likes='2k'
     comments='25'
     shares='10'
   />
+
+  <Footer />
 </div>, document.querySelector("#root"));
 
