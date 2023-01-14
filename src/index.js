@@ -4,12 +4,6 @@ import './css/bootstrap.css'
 import './css/style.css'
 import post from './img/food1.jpg'
 import user from './img/user1.jpg'
-import comment from './img/comment.png'
-import share from './img/share.png'
-import like from './img/thumbsUp.png'
-//import 'https://kit.fontawesome.com/92529d23a5.js'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function Post(props) {
   return (
